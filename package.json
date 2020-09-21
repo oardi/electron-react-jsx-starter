@@ -1,8 +1,8 @@
 {
-	"name": "my-app",
-	"productName": "my-app",
+	"name": "electron-forge-react",
+	"productName": "electron-forge-react",
 	"version": "1.0.0",
-	"description": "My Electron application description",
+	"description": "Electron Forge React Template",
 	"main": ".webpack/main",
 	"scripts": {
 		"start": "electron-forge start",

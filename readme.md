@@ -1,6 +1,6 @@
-# Electron React Starter
-
+# Electron Forge React Starter
 Electron React Starter created with create-electron-app
+
 
 ## Usage
 `npm start`
@@ -8,6 +8,8 @@ Electron React Starter created with create-electron-app
 
 ## Build
 `npm run make`
+or
+`npm run package`
 
 
 ## Included
@@ -18,3 +20,4 @@ Electron React Starter created with create-electron-app
 * hmr
 * babel
 * scss
+* twitter bootstrap
