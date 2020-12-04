@@ -52,7 +52,7 @@
 							"entryPoints": [
 								{
 									"html": "./src/index.html",
-									"js": "./src/index.js",
+									"js": "./src/index.jsx",
 									"name": "main_window"
 								}
 							]
@@ -63,34 +63,34 @@
 		}
 	},
 	"dependencies": {
-		"@types/react": "^16.9.49",
-		"@types/react-dom": "^16.9.8",
-		"bootstrap": "^4.5.2",
+		"@types/react": "^17.0.0",
+		"@types/react-dom": "^17.0.0",
+		"bootstrap": "^4.5.3",
 		"electron-squirrel-startup": "^1.0.0",
-		"react": "^16.13.1",
-		"react-dom": "^16.13.1"
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1"
 	},
 	"devDependencies": {
-		"@babel/cli": "^7.11.6",
-		"@babel/core": "^7.11.6",
-		"@babel/plugin-proposal-class-properties": "^7.10.4",
-		"@babel/preset-env": "^7.11.5",
-		"@babel/preset-react": "^7.10.4",
-		"@electron-forge/cli": "6.0.0-beta.53",
-		"@electron-forge/maker-deb": "6.0.0-beta.53",
-		"@electron-forge/maker-rpm": "6.0.0-beta.53",
-		"@electron-forge/maker-squirrel": "6.0.0-beta.53",
-		"@electron-forge/maker-zip": "6.0.0-beta.53",
-		"@electron-forge/plugin-webpack": "6.0.0-beta.53",
+		"@babel/cli": "^7.12.8",
+		"@babel/core": "^7.12.9",
+		"@babel/plugin-proposal-class-properties": "^7.12.1",
+		"@babel/preset-env": "^7.12.7",
+		"@babel/preset-react": "^7.12.7",
+		"@electron-forge/cli": "6.0.0-beta.54",
+		"@electron-forge/maker-deb": "6.0.0-beta.54",
+		"@electron-forge/maker-rpm": "6.0.0-beta.54",
+		"@electron-forge/maker-squirrel": "6.0.0-beta.54",
+		"@electron-forge/maker-zip": "6.0.0-beta.54",
+		"@electron-forge/plugin-webpack": "6.0.0-beta.54",
 		"@marshallofsound/webpack-asset-relocator-loader": "^0.5.0",
-		"babel-loader": "^8.1.0",
+		"babel-loader": "^8.2.2",
 		"babel-plugin-syntax-jsx": "^6.18.0",
-		"css-loader": "^4.3.0",
-		"electron": "10.1.2",
-		"node-loader": "^1.0.1",
-		"node-sass": "^4.14.1",
-		"react-hot-loader": "^4.12.21",
-		"sass-loader": "^10.0.2",
-		"style-loader": "^1.2.1"
+		"css-loader": "^5.0.1",
+		"electron": "11.0.3",
+		"node-loader": "^1.0.2",
+		"node-sass": "^5.0.0",
+		"react-hot-loader": "^4.13.0",
+		"sass-loader": "^10.1.0",
+		"style-loader": "^2.0.0"
 	}
 }

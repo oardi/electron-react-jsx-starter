@@ -10,7 +10,7 @@ export const ButtonCounter = ({ title, onClick }) => {
 
 	return (
 		<button className="btn btn-outline-secondary" onClick={handleClick}>
-			{title} {count}
+			{title} - {count}
 		</button>
 	);
 }

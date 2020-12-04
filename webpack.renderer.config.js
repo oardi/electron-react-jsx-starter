@@ -2,7 +2,7 @@
 const rules = require('./webpack.rules');
 
 rules.push({
-	test: /\.(js|jsx)$/,
+	test: /\.jsx?$/,
 	exclude: /node_modules/,
 	loader: ['babel-loader']
 });
@@ -41,5 +41,8 @@ module.exports = {
 	// Put your normal webpack config below here
 	module: {
 		rules,
+	},
+	resolve: {
+		extensions: ['.js', '.jsx']
 	},
 };
