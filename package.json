@@ -86,7 +86,7 @@
 		"babel-loader": "^8.2.2",
 		"babel-plugin-syntax-jsx": "^6.18.0",
 		"css-loader": "^5.0.1",
-		"electron": "11.0.3",
+		"electron": "11.5.0",
 		"node-loader": "^1.0.2",
 		"node-sass": "^5.0.0",
 		"react-hot-loader": "^4.13.0",
